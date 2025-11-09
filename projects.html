@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Zoe Thoma</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.5/dist/css/foundation.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav id="menu" class="top-bar">
+    <div class="menu-left">
+      <a href="index.html" class="logo">Zoe Thoma</a>
+    </div>
+    <div class="menu-right">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="fun.html">Fun & Hobbies</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section id="page-header" class="text-center">
+    <h1>Projects</h1>
+    <p class="subtext">A selection of engineering and IoT projects I've contributed to.</p>
+  </section>
+
+  <!-- Projects Grid -->
+  <section id="projects" class="grid-container">
+    <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-3">
+
+      <!-- Project 1 -->
+      <div class="cell">
+        <div class="project-card">
+          <img src="/img/medtronic.jpg" alt="Medtronic logo" class="project-image">
+          <div class="project-content">
+            <h3>Medtronic Smart Bathroom Project</h3>
+            <p>Collaborated with a team of St. Thomas engineers and Medtronic professionals to design an automated device supporting pelvic health treatment.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="cell">
+        <div class="project-card">
+          <img src="/img/iotproject.jpg" alt="IoT sensor project" class="project-image">
+          <div class="project-content">
+            <h3>IoT Sensor Integration Project</h3>
+            <p>Developed a real-time IoT system using STM32, ESP8266, and Raspberry Pi to acquire, transmit, and visualize sensor data over UART, Wi-Fi, and Bluetooth.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="cell">
+        <div class="project-card">
+          <img src="/img/engr331project.png" alt="Door security system" class="project-image">
+          <div class="project-content">
+            <h3>Arm Cortex-M4 Door Security System</h3>
+            <p>Created a security system in C featuring an LCD display, keypad input, and LED strip indicators as part of an embedded systems course project.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Zoe Thoma</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/what-input@5.2.12/dist/what-input.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.5/dist/js/foundation.min.js"></script>
+  <script>$(document).foundation();</script>
+</body>
+</html>

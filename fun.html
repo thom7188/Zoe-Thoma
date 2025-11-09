@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Hobbies & Interests | Zoe Thoma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.5/dist/css/foundation.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        /* FUN/HOBBIES SPECIFIC STYLES */
+        #fun-header {
+            text-align: center;
+            margin: 2rem 0 1rem;
+            color: blueviolet;
+        }
+
+        #fun-header p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 0.5rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1em 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 0.5em;
+            text-align: left;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .flex-container > div {
+            flex: 1 1 300px;
+        }
+
+        .title-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .title-card img {
+            margin-top: 0.5rem;
+        }
+
+        .title-card h4 {
+            margin-bottom: 0.5rem;
+            color: #222;
+        }
+
+        a {
+            color: blueviolet;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .flex-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="menu" class="top-bar">
+        <div class="menu-left">
+            <a href="index.html" class="logo">Zoe Thoma</a>
+        </div>
+        <div class="menu-right">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html" class="active">Fun & Hobbies</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section id="fun-header">
+        <h1>Hobbies & Interests</h1>
+        <p>My dog Ziggy and I enjoy participating in multiple dog sports together.</p>
+        <img src="/img/ziggyDD.jpg" alt="Ziggy dock diving"/>
+    </section>
+
+    <!-- Dog Titles & Images -->
+    <div class="flex-container">
+        <div>
+            <h3>Completed Titles</h3>
+            <div class="title-card">
+                <h4>BCAT</h4>
+                <img src="/img/ziggybcat.jpg" alt="Ziggy with her BCAT Ribbon"/>
+            </div>
+            <div class="title-card">
+                <h4>Dock Master (DM)</h4>
+                <img src="/img/ziggydm.jpg" alt="Ziggy with her DM Ribbon"/>
+            </div>
+            <div class="title-card">
+                <h4>Fetch Intermediate (FTI)</h4>
+                <img src="/img/ziggyfti.jpg" alt="Ziggy with her Fetch Ribbons"/>
+            </div>
+        </div>
+
+        <!-- Links to Dog Sports -->
+        <div>
+            <h3>Learn About Each Sport</h3>
+            <ul>
+                <li><a href="https://www.akc.org/sports/coursing/fast-cat/" target="_blank" rel="noopener noreferrer">FastCAT</a></li>
+                <li><a href="https://northamericadivingdogs.com/" target="_blank" rel="noopener noreferrer">Dock Diving</a></li>
+                <li><a href="https://www.akc.org/fetch/" target="_blank" rel="noopener noreferrer">Fetch</a></li>
+                <li><a href="https://www.akc.org/sports/rally/" target="_blank" rel="noopener noreferrer">Rally</a></li>
+                <li><a href="https://www.akc.org/sports/title-recognition-program/disc-dog/" target="_blank" rel="noopener noreferrer">Disc Dog</a></li>
+                <li><a href="https://www.akc.org/sports/title-recognition-program/flyball/" target="_blank" rel="noopener noreferrer">Flyball</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
